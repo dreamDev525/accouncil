@@ -35,7 +35,7 @@ This is a side project I've been working on. A full stack invoicing application 
 - Automatic status change when payment record is added
 - Payment history section for each invoice with record about payment date, payment method and extra note.
 - Record partial payment of invoice.
-- Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices. 
+- Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices.
 - Multiple user registration.
 - Authentication using jsonwebtoken (jwt) and Google auth
 
@@ -68,7 +68,7 @@ This project was created using the following technologies.
 MongoDB (MongoDB Atlas)
 
 ## Configuration and Setup
-In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine. 
+In order to run this project locally, simply fork and clone the repository or download as zip and unzip on your machine.
 - Open the project in your prefered code editor.
 - Go to terminal -> New terminal (If you are using VS code)
 - Split your terminal into two (run the client on one terminal and the server on the other terminal)
@@ -78,7 +78,7 @@ In the first terminal
 - Supply the following credentials
 
 ```
-REACT_APP_GOOGLE_CLIENT_ID = 
+REACT_APP_GOOGLE_CLIENT_ID =
 REACT_APP_API = http://localhost:5000
 REACT_APP_URL = http://localhost:3000
 
@@ -102,13 +102,13 @@ In the second terminal
 - Supply the following credentials
 
 ```
-DB_URL = 
+DB_URL =
 PORT = 5000
-SECRET = 
-SMTP_HOST = 
-SMTP_PORT = 
-SMTP_USER = 
-SMTP_PASS = 
+SECRET =
+SMTP_HOST =
+SMTP_PORT =
+SMTP_USER =
+SMTP_PASS =
 
 ```
 
@@ -140,15 +140,15 @@ e.g:
 ```
 DB_URL = mongodb://mongo:27017/arch
 PORT = 5000
-SECRET = 
-SMTP_HOST = 
-SMTP_PORT = 
-SMTP_USER = 
-SMTP_PASS = 
+SECRET =
+SMTP_HOST =
+SMTP_PORT =
+SMTP_USER =
+SMTP_PASS =
 ```
 > goes to path "client/.env"
 ```
-REACT_APP_GOOGLE_CLIENT_ID = 
+REACT_APP_GOOGLE_CLIENT_ID =
 REACT_APP_API = http://localhost:5000
 REACT_APP_URL = http://localhost
 ```
@@ -162,19 +162,3 @@ And then
 
 docker-compose -f docker-compose.prod.yml up
 ```
-
-## Comment
-I intend to keep adding more features to this application, so if you like it, please give it a star, that will encourage me to 
-to keep improving the project.
-
-
-## Author
-
-- Twitter: [@panshak_](https://twitter.com/panshak_)
-- Github: [@panshak](https://github.com/panshak)
-- Linkedin: [@panshak](https://www.linkedin.com/in/panshak/)
-- Email: [@ipanshak](mailto:ipanshak@gmail.com)
-
-## License
-
-- This project is [MIT](https://github.com/Panshak/accountill/blob/master/LICENSE.md) licensed.
